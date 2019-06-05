@@ -11,6 +11,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "htts://github.com/<%= github_user %>/<%= name %>"
+    "url": "https://github.com/<%= github_user %>/<%= name %>"
   }
 }
