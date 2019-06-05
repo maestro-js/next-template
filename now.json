@@ -5,7 +5,10 @@
   "builds": [
     {
       "src": "next.config.js",
-      "use": "@now/next"
+      "use": "@now/next",
+      "config": {
+        "maxLambdaSize": "<%= now_max_lambda_size %>"
+      }
     }
   ],
   "routes": [
