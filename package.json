@@ -4,8 +4,13 @@
     "now-build": "next build"
   },
   "dependencies": {
+    "isomorphic-fetch": "^2.2.1",
     "next": "^8.1.0",
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "htts://github.com/<%= github_user %>/<%= name %>"
   }
 }

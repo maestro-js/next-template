@@ -1,6 +1,7 @@
 {
   "version": 2,
-  "name": "next-app",
+  "name": "<%= name %>",
+  "alias": ["<%= alias %>"],
   "builds": [
     {
       "src": "next.config.js",
@@ -14,5 +15,7 @@
         "cache-control": "immutable,max-age=31536000"
       }
     }
-  ]
+  ],
+  "env": {
+  }
 }
