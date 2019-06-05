@@ -1,6 +1,7 @@
 import React from 'react'
 import fetch from 'isomorphic-fetch';
-
+import Link from 'next/link';
+import Head from '../components/head'
 
 class Index extends React.Component {
   
